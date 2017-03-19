@@ -106,20 +106,20 @@ class Conexion {
             
         }else
         
-        if($Imc>=18.5 && $im<=24.9){
+        if($Imc>=18.5 && $Imc<=24.9){
           $gradoObesidad= "Su peso es Normal";  
             
             
         }else
-        if($Imc>=25 && $im<=29.9){
+        if($Imc>=25 && $Imc<=29.9){
           $gradoObesidad= "Usted tiene Sobrepeso";      
         
         }else
-        if($Imc>=30 && $im<=34.9){
+        if($Imc>=30 && $Imc<=34.9){
           $gradoObesidad= "Tiene un problema de Obesidad";      
         
         }else
-        if($Imc>=35 && $im<=39.9){
+        if($Imc>=35 && $Imc<=39.9){
           $gradoObesidad= "Tiene un problema de Obesidad Severa";      
         
         }else
